@@ -15,10 +15,12 @@ html, body, nav, section{
 	width: 100vw;
 }
 
-
-
 /* about style rules */
 
+#about {
+	height: 100vh;
+	width: 100vw;
+}
 .aboutHeader {
 	color: black;
 	padding-top: 50px;
@@ -27,4 +29,19 @@ html, body, nav, section{
 .aboutText {
 	width: 70%;
 	margin: auto;
+}
+
+/* visit and rules style rules */
+
+#rules {
+	height: 100vh;
+	width: 100vw;
+}
+
+.visitHeader {
+	padding-top: 50px;
+}
+
+.visitRules {
+	text-align: center;
 }
