@@ -1,5 +1,9 @@
-html, body, nav {
+html, body, nav, section{
 	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	padding-top: 100px;
 }
 
 body {
