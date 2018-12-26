@@ -1,5 +1,19 @@
-
-html, body, a {
+html, body, nav {
 	font-family: 'Open Sans', sans-serif;
-
 }
+
+body {
+	color: white;
+	padding-top: 70px;
+	color: white;
+}
+
+.landingPage {
+	color: white;
+	background-image: url(strayCafeLanding.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+}
+
