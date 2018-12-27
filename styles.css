@@ -35,11 +35,8 @@ html, body, nav, section{
 .aboutPage {
 	padding-bottom: 100px;
 }
-/* visit and rules style rules */
 
-#rules {
-	
-}
+/* visit and rules style rules */
 
 .visitHeader {
 	padding-top: 100px;
@@ -49,7 +46,33 @@ html, body, nav, section{
 	padding-top: 100px;
 }
 
+/*adoption style rules */
 
+img {
+	display: inline-block;
+	width: 100%;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+img {
+	height: 275px;
+	width: 276px;
+	padding-top: 20px;
+}
 
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
